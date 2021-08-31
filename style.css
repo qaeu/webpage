@@ -43,7 +43,7 @@ header::before {
 #title {
     display: flex;
     margin: auto;
-    width: 60vw;
+    width: 50vw;
     color: #000;
     background: #fff;
     mix-blend-mode: screen;
@@ -55,7 +55,7 @@ header::before {
     text-align: center;
     letter-spacing: 1vw;
     margin: 0;
-    padding: 0 0 3vw 1vw;
+    padding: 0 0 1vw 1vw;
     width: 100%;
 }
 
@@ -67,12 +67,12 @@ header::before {
 /* Max sizing */
 @media (orientation: landscape) 
   and (min-width: 1500px) {
-    #title { width: 1150px; }
+    #title { width: 750px; }
     #title h1 {
-        font-size: 120px;
-        line-height: 120px;
+        font-size: 60px;
+        line-height: 60px;
         letter-spacing: 15px;
-        padding: 0 0 30px 15px;
+        padding: 0 0 15px 15px;
     }
 }
 
