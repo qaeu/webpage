@@ -29,16 +29,6 @@ header {
         rgba(204,83,103,.31),
         rgba(204,83,103,0) 79%);
 }
-header::before {
-    content: "";
-    background: url("bg.png");
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -99;
-}
 
 #title {
     display: flex;
@@ -62,6 +52,8 @@ header::before {
 #about {
     display: flex;
     margin: auto;
+    font-family: sans-serif;
+    font-size: 2vw;
 }
 
 /* Max sizing */
@@ -74,6 +66,8 @@ header::before {
         letter-spacing: 12px;
         padding: 0 0 15px 15px;
     }
+    
+    #about { font-size: 18px; }
 }
 
 /* Mobile layout */
@@ -89,4 +83,6 @@ header::before {
         line-height: 8vw;
         padding: 0 1vw 2vw 2vw;
     }
+
+    #about { font-size: 4vw; }
 }
